@@ -18,6 +18,17 @@ cdn에 태우기 위해서 public project로 설정
 + https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareOTF_acEB.otf
 
 
+##### :penguin: etc.
+:memo: [@font-face 참고](https://developer.mozilla.org/ko/docs/Web/CSS/@font-face)  
 
-
+```
+@font-face {
+  font-family: ExampleFont;
+  src: local(examplefont.woff) format('woff'),
+       url(/path/to/fonts/examplefont.eot) format('eot');
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+```
 
