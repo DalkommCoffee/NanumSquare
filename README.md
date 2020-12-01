@@ -3,15 +3,28 @@
 :rocket: cdn에 태우기 위해서 public project로 설정
 
 
+#### :pushpin: 나눔스퀘어 woff2
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareL.woff2
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareR.woff2
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareB.woff2
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareEB.woff2
 
-#### :pushpin: 나눔스퀘어
+
+#### :pushpin: 나눔스퀘어 woff
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareL.woff
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareR.woff
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareB.woff
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareEB.woff
+
+
+#### :pushpin: 나눔스퀘어 otf
 + https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareL.otf
 + https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareR.otf
 + https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareB.otf
 + https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareEB.otf
 
 
-#### :pushpin: 나눔스퀘어ac
+#### :pushpin: 나눔스퀘어ac otf
 + https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareOTF_acL.otf
 + https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareOTF_acRotf
 + https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareOTF_acB.otf
