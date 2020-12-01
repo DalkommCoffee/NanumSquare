@@ -36,20 +36,20 @@
 
 ```
 @font-face {
-	font-family: 'NanumSquareOTF';
-	font-style: normal;
-	font-weight: 400;
-	src: url('https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareR.woff2') format('woff2'),
-			url('https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareR.woff') format('woff'),
-			url('https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareR.otf') format('opentype');
-font-display: swap;
+  font-family: 'NanumSquareOTF';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareR.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareR.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareR.otf') format('opentype');
+  font-display: swap;
 }
 
 body {
-	font-family: 'NanumSquareOTF B';
-	font-size: 13px;
-	font-style: normal;
-	font-weight: 500;
+  font-family: 'NanumSquareOTF B';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
 }
 ```
 
