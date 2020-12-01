@@ -1,5 +1,5 @@
 # :white_check_mark: NanumSquare
-jsdeliver용 나눔스퀘어 폰트   
+:boom: jsdeliver용 나눔스퀘어 폰트   
 cdn에 태우기 위해서 public project로 설정
 
 
