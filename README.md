@@ -4,31 +4,31 @@
 
 
 #### :pushpin: 나눔스퀘어 woff2
-+ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareL.woff2
-+ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareR.woff2
-+ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareB.woff2
-+ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareEB.woff2
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/webfont/nanum_square/NanumSquareL.woff2
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/webfont/nanum_square/NanumSquareR.woff2
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/webfont/nanum_square/NanumSquareB.woff2
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/webfont/nanum_square/NanumSquareEB.woff2
 
 
 #### :pushpin: 나눔스퀘어 woff
-+ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareL.woff
-+ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareR.woff
-+ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareB.woff
-+ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareEB.woff
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/webfont/nanum_square/NanumSquareL.woff
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/webfont/nanum_square/NanumSquareR.woff
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/webfont/nanum_square/NanumSquareB.woff
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/webfont/nanum_square/NanumSquareEB.woff
 
 
 #### :pushpin: 나눔스퀘어 otf
-+ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareL.otf
-+ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareR.otf
-+ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareB.otf
-+ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareEB.otf
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/webfont/nanum_square/NanumSquareL.otf
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/webfont/nanum_square/NanumSquareR.otf
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/webfont/nanum_square/NanumSquareB.otf
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/webfont/nanum_square/NanumSquareEB.otf
 
 
 #### :pushpin: 나눔스퀘어ac otf
-+ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareOTF_acL.otf
-+ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareOTF_acRotf
-+ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareOTF_acB.otf
-+ https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareOTF_acEB.otf
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/webfont/nanum_square/NanumSquareOTF_acL.otf
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/webfont/nanum_square/NanumSquareOTF_acRotf
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/webfont/nanum_square/NanumSquareOTF_acB.otf
++ https://cdn.jsdelivr.net/gh/DalkommCoffee/webfont/nanum_square/NanumSquareOTF_acEB.otf
 
 
 ##### :penguin: etc.
@@ -36,12 +36,20 @@
 
 ```
 @font-face {
-  font-family: ExampleFont;
-  src: local(examplefont.woff) format('woff'),
-       url(/path/to/fonts/examplefont.eot) format('eot');
-  font-weight: 400;
-  font-style: normal;
-  font-display: fallback;
+	font-family: 'NanumSquareOTF';
+	font-style: normal;
+	font-weight: 400;
+	src: url('https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareR.woff2') format('woff2'),
+			url('https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareR.woff') format('woff'),
+			url('https://cdn.jsdelivr.net/gh/DalkommCoffee/NanumSquare/NanumSquareR.otf') format('opentype');
+font-display: swap;
+}
+
+body {
+	font-family: 'NanumSquareOTF B';
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 500;
 }
 ```
 
